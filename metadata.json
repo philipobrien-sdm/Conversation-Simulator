@@ -1,0 +1,5 @@
+{
+  "name": "AI Persona Conversation Tool",
+  "description": "An AI-powered conversation tool where you define a persona and a topic, then engage in a discussion. The AI provides feedback on its emotional state and persuasion level, offering insights to guide the conversation towards a successful outcome.",
+  "requestFramePermissions": []
+}

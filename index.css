@@ -1,0 +1,18 @@
+/* Global styles can be added here if needed */
+
+.tooltip-container {
+  position: relative;
+}
+
+/* Base state for the tooltip content */
+.tooltip-container .tooltip-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Visible state when hovering over the container */
+.tooltip-container:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
